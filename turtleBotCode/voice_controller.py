@@ -6,7 +6,7 @@ from geometry_msgs.msg import TwistStamped
 
 LINEAR_SPEED = 0.10    # meters per second
 ANGULAR_SPEED = 0.50   # radians per second
-MOVE_TIME = 1.0        # seconds
+MOVE_TIME = 2.0        # seconds
 
 
 class VoiceController(Node):
@@ -48,6 +48,7 @@ class VoiceController(Node):
         elif "right" in words:
             self.linear = 0.0
             self.angular = -ANGULAR_SPEED
+                
         else:
             self.get_logger().info("No command found.")
             return
