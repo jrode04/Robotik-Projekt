@@ -1,0 +1,5 @@
+# Source enviroments before starting transcribe.py
+
+source /opt/ros/jazzy/setup.bash
+source ~/ros2/config/ros2_env.sh
+source venv/bin/activate
