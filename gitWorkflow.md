@@ -51,6 +51,7 @@ Change your files in VS Code. Then run these commands:
 ```
 git status                       # shows which files changed
 git diff                         # shows the changes in the files
+q                                # exits the pager view opened by git diff
 git add filename                 # adds one file (use this more often)
 git add .                        # adds all changes in this folder and its subfolders
 git commit -m "message"          # saves the changes. Write a short description
