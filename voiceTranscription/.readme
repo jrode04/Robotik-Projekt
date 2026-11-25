@@ -3,3 +3,12 @@
 source /opt/ros/jazzy/setup.bash
 source ~/ros2/config/ros2_env.sh
 source venv/bin/activate
+
+# Acitvate code on Remote-PC
+
+python3 voice_controller.py
+
+# Activate code on Raspberry Pi
+
+cd ~/voice_project
+python3 voice_controller.py
